@@ -56,23 +56,7 @@ The screenshots/ directory contains execution evidence demonstrating:
 
 5) End-to-end RAG query execution
 
-D) How to Run the Project:
-1) Install Dependencies
-pip install -r requirements.txt
-
-2) Start Ollama
-ollama serve
-
-
-3) Ensure required models are available:
-
-ollama pull mistral
-ollama pull nomic-embed-text
-
-4) Run a Sample Query
-python -c "from rag.rag_chain import rag_answer; print(rag_answer('What is ecofeminism?'))"
-
-E) Description of main py files:
+D) Description of main py files:
 
 ingest.py: Processes PDFs, chunks text, generates embeddings, and stores vectors in the database
 
